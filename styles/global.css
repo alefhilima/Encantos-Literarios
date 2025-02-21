@@ -49,30 +49,43 @@ body {
     font-family: var(--ff-base);
 }
 
+.container {
+    width: 70rem;
+    margin: 0 auto;
+}
+
 h1, h2, h3 {
     color: var(--color-title);
 }
 
 h1 {
-    font: var(--text-title-lg);
+    font-size: var(--text-title-lg);
 }
 
 h2 {
-    font: var(--text-title-md);
+    font-size: var(--text-title-md);
 }
 
 h3 {
-    font: var(--text-title-sm);
+    font-size: var(--text-title-sm);
 }
 
 h4 {
-    font: var(--text-title-xs);
+    font-size: var(--text-title-xs);
     color: var(--color-body);
+}
+
+a {
+    text-decoration: none;
 }
 
 .subtitle {
     color: var(--color-body);
     font: var(--text-subtitle);
+}
+
+.border {
+    border: 1px solid red;
 }
 
 .flex {
