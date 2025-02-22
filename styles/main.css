@@ -17,7 +17,7 @@ main {
         }
     }
 
-    & .content {
+    & .title {
         width: 41rem;
         text-align: center;
         margin: 10.25rem auto 0;
@@ -27,11 +27,11 @@ main {
         margin-bottom: 2rem;
     }
 
-    & P {
+    & p {
         width: 100%;
         color: var(--color-body);
+        font-size: var(--text-body-lg);
         line-height: 140%;
         margin-inline: auto;
     }
-
 }
